@@ -1,10 +1,10 @@
-public class Assign2 {
+public class TotalAmountpaid {
     int P;
     int t;
     int n;
     double r;
 
-    public Assign2(int P, int t, int n, double r) {
+    public TotalAmountpaid(int P, int t, int n, double r) {
 
         // Initializing the variables in Assign2
         this.P = P;
@@ -29,9 +29,9 @@ public class Assign2 {
         int compoundingPeriodsPerYear = 12;
 
         // Create an instance of Assign2 with the provided values
-        Assign2 myAmount = new Assign2(principal, years, compoundingPeriodsPerYear, annualRate);
-        double totalAmountPaid = myAmount.calculateTotalAmountPaid(); //calling an instance/object to calculate total amount paid
+        TotalAmountpaid myAmount = new TotalAmountpaid(principal, years, compoundingPeriodsPerYear, annualRate);
+        double Amount = myAmount.calculateTotalAmountPaid(); //calling an instance/object to calculate total amount paid
 
-        System.out.println("Mr.Bob will have paid " + totalAmountPaid + " rwf, after 3 years");
+        System.out.println("Mr.Bob will have paid " + Amount + " rwf, after 3 years");
     }
 }
